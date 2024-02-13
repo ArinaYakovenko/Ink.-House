@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 60px;
+    border: 1px solid;
+    font-size: 1em;
+    background-color: inherit;
+    color: rgba(89, 141, 102, 1);
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #FFF;
+    background-color: rgba(55, 107, 68, 1);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(225, 237, 230, 1);
+    font-size: 1em;
+    padding: 15px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    font-weight: 700;
+    color: rgba(89, 141, 102, 1);
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 500;
+    line-height: 23.48px;
+    cursor: pointer;
+}
+
+.item {
+    color: rgba(44, 45, 53, 1);
+    transition: color 0.3s ease-in-out, stroke 0.3s ease-in-out;
+    stroke: rgba(44, 45, 53, 1);
+}
+
+.item:hover {
+    color: rgba(89, 141, 102, 1);
+    stroke: rgba(89, 141, 102, 1);
+}
+
+.header-branding {
+    display: flex;
+    align-items: center;
+}
+
+.branding h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: rgba(44, 45, 53, 1);
+    margin-bottom: 20px;
+}
+
+.branding h1 span {
+    color: rgba(89, 141, 102, 1);
+}
+
+.branding p {
+    font-size: 1em;
+    max-width: 540px;
+    line-height: 27px;
+    color: rgba(134, 146, 139, 1);
+    margin-bottom: 60px;
+}
+
+.header-button {}
+
+.replicas {
+    margin-top: 50px;
+}
+
+.replicas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.replicas-header h1 {
+    color: rgba(44, 45, 53, 1);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sort li {
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgba(212, 232, 217, 1);
+    color: rgba(44, 45, 53, 1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.sort li:hover {
+    background-color: rgba(55, 107, 68, 1);
+    color: #FFF;
+}
+
+.sort li.active {
+    border: 2px solid rgba(55, 107, 68, 1);
+}
+
+.replicas-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+.replica-img {
+    width: 100%;
+}
+
+.replica-block {
+    grid-column: 4 span;
+    padding: 20px;
+    height: 100%;
+    background: rgba(225, 237, 230, 1);
+}
+
+.replica-author {
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.replica-title {
+    color: rgba(44, 45, 53, 1);
+    font-size: 1.5em;
+}
+
+.replica-details {
+    color: rgba(44, 45, 53, 1);
+    font-size: 18px;
+    padding: 10px 0 30px 0;
+}
+
+.replica-price {
+    color: rgba(89, 141, 102, 1);
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.replica-button {
+    width: 100%;
+    text-align: center;
+}
