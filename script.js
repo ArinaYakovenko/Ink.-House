@@ -51,7 +51,7 @@ const artworks = [
         author: "Paul Smith",
         title: "Wild Beast",
         details: "Watercolor, paper (50x80)",
-        price: "$19,500",
+        price: "$195",
         image: "./img/11.png",
         country: "England"
     },
@@ -59,7 +59,7 @@ const artworks = [
         author: "John White",
         title: "Rocky Shore",
         details: "Color lithography (40x60)",
-        price: "$17,500",
+        price: "$175",
         image: "./img/12.png",
         country: "England"
     },
@@ -67,7 +67,7 @@ const artworks = [
         author: "Jim Watson",
         title: "River and Mountains",
         details: "Watercolor, paper (50x80)",
-        price: "$20,500",
+        price: "$205",
         image: "./img/13.png",
         country: "England"
     },
@@ -75,7 +75,7 @@ const artworks = [
         author: "Eugene Zillion",
         title: "White Parrot",
         details: "Color lithography (40x60)",
-        price: "$15,500",
+        price: "$155",
         image: "./img/14.png",
         country: "England"
     },
@@ -83,7 +83,7 @@ const artworks = [
         author: "Eric Gillman",
         title: "Night Fish",
         details: "Paper, acrylic (50x80)",
-        price: "$12,500",
+        price: "$125",
         image: "./img/15.png",
         country: "England"
     },
@@ -91,7 +91,7 @@ const artworks = [
         author: "Alfred Barr",
         title: "Ginger Cat",
         details: "Color lithography (40x60)",
-        price: "$21,000",
+        price: "$210",
         image: "./img/16.png",
         country: "England"
     },
@@ -99,7 +99,7 @@ const artworks = [
         author: "Kurt Werner",
         title: "Above the City",
         details: "Color lithography (40x60)",
-        price: "$16,000",
+        price: "$160",
         image: "./img/1.png",
         country: "Germany"
     },
@@ -107,7 +107,7 @@ const artworks = [
         author: "Max Richter",
         title: "Birds",
         details: "Canvas, oil (50x80)",
-        price: "$14,500",
+        price: "$145",
         image: "./img/2.png",
         country: "Germany"
     },
@@ -115,7 +115,7 @@ const artworks = [
         author: "Martin Mayer",
         title: "Among the Leaves",
         details: "Color lithography (40x60)",
-        price: "$20,000",
+        price: "$200",
         image: "./img/3.png",
         country: "Germany"
     },
@@ -123,7 +123,7 @@ const artworks = [
         author: "Herman Becker",
         title: "Bright Bird",
         details: "Color lithography (40x60)",
-        price: "$13,000",
+        price: "$130",
         image: "./img/4.png",
         country: "Germany"
     },
@@ -131,7 +131,7 @@ const artworks = [
         author: "Wolf Bauer",
         title: "Woodpeckers",
         details: "Paper, acrylic (50x80)",
-        price: "$20,000",
+        price: "$200",
         image: "./img/5.png",
         country: "Germany"
     },
@@ -139,7 +139,7 @@ const artworks = [
         author: "Walter Hartmann",
         title: "Great Waters",
         details: "Paper, acrylic (50x80)",
-        price: "$23,000",
+        price: "$230",
         image: "./img/6.png",
         country: "Germany"
     }
